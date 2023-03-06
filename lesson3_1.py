@@ -20,9 +20,5 @@ while operand_amound != 1:
 			result += number
 		if comand =='-':
 			result -= number
-		if comand == '*':
-			result *= number
-		if comand == '/':
-			result /= number
 	result_string += " " + comand + " " + str(number)
 print(result_string + " = " + str(result))
