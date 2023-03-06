@@ -18,5 +18,7 @@ while operand_amound != 1:
 	if number != 0:
 		if comand =='-':
 			result -= number
+		if comand == '*':
+			result *= number
 	result_string += " " + comand + " " + str(number)
 print(result_string + " = " + str(result))
