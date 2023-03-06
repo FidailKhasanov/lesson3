@@ -16,8 +16,6 @@ while operand_amound != 1:
 	number = int(input(f'Введите число {count}: '))
 
 	if number != 0:
-		if comand == '+':
-			result += number
 		if comand =='-':
 			result -= number
 	result_string += " " + comand + " " + str(number)
