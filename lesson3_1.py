@@ -1,6 +1,6 @@
 while True:
 	comand = input('Выберите операцию: ')
-	if comand in '+-/*':
+	if comand in '+-/*9':
 		break
 	print('Ошибка ввода. Такой команды не существует. Попробуйте еще раз.')
 
