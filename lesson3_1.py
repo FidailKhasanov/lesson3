@@ -5,7 +5,7 @@ while True:
 	print('Ошибка ввода. Такой команды не существует. Попробуйте еще раз.')
 
 count = 1
-operand_amound = int(input('Введите количество операндов: '))
+operand_amound = int(input('Введите количество слогаемых: '))
 number = int(input(f'Введите число {count}: '))
 result = number
 result_string = str(number)
