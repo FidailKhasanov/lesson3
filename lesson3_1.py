@@ -22,4 +22,4 @@ while operand_amound != 1:
 		if comand == '9':
 			result += 9
 	result_string += " " + comand + " " + str(number)
-print(result_string + " = " + str(result))
+
