@@ -8,6 +8,7 @@ count = 1
 operand_amound = int(input('Введите количество слогаемых: '))
 number = int(input(f'Введите число {count}: '))
 result = number
+result_string = ''
 
 while operand_amound != 1:
 	operand_amound -= 1
